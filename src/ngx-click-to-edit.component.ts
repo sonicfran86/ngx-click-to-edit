@@ -106,9 +106,9 @@ export class NgxClickToEditComponent implements AfterViewInit {
         this.original = this.value;
     }
 
+    @Output() onSave: EventEmitter<any> = new EventEmitter<any>();
+
     private original: any;
-    @Output()
-    private onSave: EventEmitter<any> = new EventEmitter();
 
     ngAfterViewInit(): void {
         if (typeof this.value === 'string') {
