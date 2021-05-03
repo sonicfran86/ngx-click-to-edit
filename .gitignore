@@ -7,3 +7,4 @@ npm-debug.log
 /ngx-click-to-edit.iml
 /"fontawesome-webfont-*"
 /main-*.js
+dist/

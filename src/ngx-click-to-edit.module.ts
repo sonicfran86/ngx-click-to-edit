@@ -20,7 +20,7 @@ import { NgxClickToEditComponent } from './ngx-click-to-edit.component';
 })
 export class NgxClickToEditModule {
 
-    static forRoot(): ModuleWithProviders {
+    static forRoot(): ModuleWithProviders<NgxClickToEditModule> {
         return {
             ngModule: NgxClickToEditModule
         };
