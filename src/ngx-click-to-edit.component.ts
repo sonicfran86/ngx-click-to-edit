@@ -90,13 +90,13 @@ input {
 }`]
 })
 export class NgxClickToEditComponent implements AfterViewInit {
-    @Input('min') min: number;
-    @Input('max') max: number;
-    @Input('field') field: string              = 'field';
-    @Input('unit') unit: string                = '';
-    @Input('full') full: boolean               = false;
-    @Input('hideTrigger') hideTrigger: boolean = false;
-    @Input('type') type: string                = 'string';
+    @Input() min: number;
+    @Input() max: number;
+    @Input() field: string              = 'field';
+    @Input() unit: string                = '';
+    @Input() full: boolean               = false;
+    @Input() hideTrigger: boolean = false;
+    @Input() type: string                = 'string';
                   show: boolean                = false;
                   value: any                   = '';
 

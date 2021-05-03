@@ -1,12 +1,12 @@
-import * as path from 'path';
-import * as fs from 'fs';
-import * as webpack from 'webpack';
-import * as angularExternals from 'webpack-angular-externals';
-import * as rxjsExternals from 'webpack-rxjs-externals';
+var path = require('path');
+var fs = require('fs');
+var webpack = require('webpack');
+var angularExternals = require('webpack-angular-externals');
+var rxjsExternals = require('webpack-rxjs-externals');
 
 const pkg = JSON.parse(fs.readFileSync('./package.json').toString());
 
-export default {
+module.exports = {
   entry: __dirname + '/src/index.ts',
   output: {
     path: __dirname + '/dist/',
