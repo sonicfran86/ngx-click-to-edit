@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
-    "target": "es5",
-    "module": "es2015",
+    "target": "es2015",
+    "module": "esnext",
     "moduleResolution": "node",
     "declaration": true,
     "experimentalDecorators": true,
@@ -21,6 +21,7 @@
     "strictMetadataEmit": true,
     "genDir": "./dist",
     "skipTemplateCodegen": true,
-    "debug": true
+    "debug": true,
+    "enableIvy": false
   }
 }
