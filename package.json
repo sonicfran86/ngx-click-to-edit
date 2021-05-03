@@ -8,6 +8,7 @@
   "publishConfig": {
     "registry": "https://inexus.ixxus.co.uk/repository/npm-private/"
   },
+  "files": ["dist"],
   "scripts": {
     "clean:all": "npm run clean && npm cache clean --force && rimraf -- node_modules doc coverage dist  'src/**/*.js' 'src/**/*.js.map' 'test/**/*.js' 'test/**/*.js.map' 'tools/**/*.js' 'tools/**/*.js.map'",
     "clean": "npm run rimraf -- bundles",
